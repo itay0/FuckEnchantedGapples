@@ -1,0 +1,6 @@
+name: FuckEnchantedGapples
+version: '${project.version}'
+main: me.itay.fuckenchantedgapples.FuckEnchantedGapples
+api-version: '1.17'
+authors: [itay]
+description: Fuck enchanted golden apples!
