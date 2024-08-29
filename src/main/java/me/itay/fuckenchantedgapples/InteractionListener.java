@@ -13,7 +13,7 @@ public class InteractionListener implements Listener {
     public void onInteract(PlayerItemConsumeEvent e) {
         Player p = e.getPlayer();
         if (e.getItem().getType() == Material.ENCHANTED_GOLDEN_APPLE) {
-            e.getPlayer().sendMessage(ChatColor.DARK_PURPLE + "WARN: " + ChatColor.LIGHT_PURPLE + "You can't eat that.");
+            p.sendMessage(ChatColor.DARK_PURPLE + "WARN: " + ChatColor.LIGHT_PURPLE + "You can't eat that.");
             e.setCancelled(true);
         }
     }
